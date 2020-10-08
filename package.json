@@ -1,0 +1,32 @@
+{
+  "name": "mgnlq_testmodel",
+  "version": "0.0.10",
+  "description": "example model data",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp test",
+    "version": "npm show mgnlq_testmodel@* version",
+    "instrument": "jscoverage js/ gen_cov/ --exclude *.map,*.d.ts",
+    "testcov2": "export FSD_COVERAGE=1 && nodeunit test/model test/match --reporter=lcov",
+    "testcov": "export FSD_COVERAGE=1 && nodeunit test/model test/match --reporter=lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfseb/mgnlq_testmodel.git"
+  },
+  "keywords": [
+    "typescript",
+    "fdevstart",
+    "abot"
+  ],
+  "author": "jfsebpublic@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfseb/mgnlq_testmodel/issues"
+  },
+  "homepage": "https://github.com/jfseb/mgnlq_testmodel#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
