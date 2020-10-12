@@ -27,7 +27,7 @@
       "_m_category": "besitzer",
       "index": true
     },
-    "gründungsjahr": {
+    "gr_ndungsjahr": {
       "type": "Number",
       "trim": true,
       "_m_category": "gründungsjahr"

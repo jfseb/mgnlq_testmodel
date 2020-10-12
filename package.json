@@ -1,12 +1,10 @@
 {
   "name": "mgnlq_testmodel",
-  "version": "0.0.10",
-  "description": "example model data",
+  "version": "0.0.11",
+  "description": "example model data for usage in mgnlq_model, use latter to create db testdb from this data, note that data needs to be explicitely linked as not a standard dependency",
   "main": "js/index.js",
   "typings": "js/index",
   "scripts": {
-    "build": "gulp",
-    "test": "gulp test",
     "version": "npm show mgnlq_testmodel@* version",
     "instrument": "jscoverage js/ gen_cov/ --exclude *.map,*.d.ts",
     "testcov2": "export FSD_COVERAGE=1 && nodeunit test/model test/match --reporter=lcov",

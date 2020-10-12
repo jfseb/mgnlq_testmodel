@@ -23,7 +23,7 @@
     "sender": "RadioImAmerikanischenSektor",
     "standort": ["Berlin"],
     "sendertyp" : ["government"],
-    "gründungsjahr" : 1946,
+    "gr_ndungsjahr" : 1946,
     "betriebsende" : 1994,
     "nachfolger" : "rs2"
   },
@@ -31,7 +31,7 @@
     "sender": "BFBS",
     "standort": ["Berlin"],
     "sendertyp" : ["militärisch" , "radio"],
-    "gründungsjahr" : 1949,
+    "gr_ndungsjahr" : 1949,
     "betriebsende" : 1994
   },
   {
@@ -39,14 +39,14 @@
     "standort": ["Berlin"],
     "sendertyp" : ["privat", "fernsehen"],
     "besitzer" :  "RTLMediengruppe",
-    "gründungsjahr" : 1984
+    "gr_ndungsjahr" : 1984
   },
   {
     "sender": "VOX",
     "standort": ["Berlin"],
     "sendertyp" : ["privat", "fernsehen"],
     "besitzer" :  "RTLMediengruppe",
-    "gründungsjahr" : 1993
+    "gr_ndungsjahr" : 1993
   },
   {
     "sender": "Nitro",
